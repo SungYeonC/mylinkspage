@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="성연 - 프로필 링크">
+    <meta property="og:description" content="떠들게 많은 성연이의 계정 모음">
+    <meta property="og:image" content="sungyeon.jpg">
+    <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"></script>
+    <title>르탄이 - 프로필 링크</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+        body {
+            background-color: #848DA4;
+        }
+        .image {
+            width: 100px;
+            height: 100px;
+
+            border-radius: 100%;
+            border: 2px solid white; 
+
+            background-image: url('sungyeon.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        .name {
+            color: white;
+            font-size: 30px;
+
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .intro {
+            color: white;
+            font-size: 15px;
+
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }     
+        .profile {
+            width: 300px;
+            margin: 30px auto 0px auto;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .profile > a {
+            /*profile > a : class profile 내의 모든 a 태그에 다음 style 적용*/
+            width: 300px;
+            height: 50px;
+
+            background-color: white;
+            border-radius: 8px;
+
+            margin-bottom: 10px;
+            
+            font-size: 14px;
+            font-weight: bold;
+            color: #848DA4;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px black;
+            /*각각 두 숫자씩 오른쪽 밑으로 얼마나 갈지와 선명도를 결정*/
+        }
+        .profile > a:hover {
+            /*마우스를 위에 올렸을 때*/
+            background-color: #d2d2d2;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <div class="image"></div>
+        <h1 class="name">성연</h1>
+        <p class="intro">채널 링크</p>
+        <a target="_blank" href="https://www.instagram.com/plum._.ck/">인스타그램 @plum._.ck</a>
+        <a target="_blank" href="https://www.instagram.com/sungyeonsi/">인스타그램 @sungyeonsi 글 계정</a>
+        <a target="_blank" href="https://www.instagram.com/parang.norang/">인스타그램 @parang.norang 취향 수집</a>
+        <a target="_blank" href="https://blog.naver.com/thegreatest_me/">네이버블로그</a>
+    </div>
+</body>
+</html>
